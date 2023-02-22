@@ -1,0 +1,5 @@
+<h1>TOP RESTAURANTS</h1>
+<%= link_to "Back to all restaurants", restaurants_path %>
+<% @restaurants.each do |restaurant| %>
+  <%= render restaurant %>
+<% end %>
